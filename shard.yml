@@ -1,0 +1,13 @@
+name: shardmaster
+version: 0.1.0
+
+authors:
+  - Jonathan B. <greenbigfrog@gmail.com>
+
+targets:
+  shardmaster:
+    main: src/shardmaster.cr
+
+crystal: 0.27.0
+
+license: MIT
