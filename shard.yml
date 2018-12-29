@@ -11,3 +11,12 @@ targets:
 crystal: 0.27.0
 
 license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+development_dependencies:
+  discordcr:
+    github: meew0/discordcr
+    branch: master

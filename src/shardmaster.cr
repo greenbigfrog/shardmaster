@@ -1,6 +1,4 @@
-# TODO: Write documentation for `Shardmaster`
-module Shardmaster
-  VERSION = "0.1.0"
+require "./server"
 
-  # TODO: Put your code here
-end
+master = Shardmaster::Server.new(ARGV[0].to_i32)
+master.run
